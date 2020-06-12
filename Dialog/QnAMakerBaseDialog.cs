@@ -1,5 +1,6 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
+
 using SocketLabs.InjectionApi;
 using SocketLabs.InjectionApi.Message;
 using System;
@@ -34,7 +35,7 @@ namespace Microsoft.BotBuilderSamples.Dialog
         /// </summary>
         /// <param name="services">Bot Services.</param>
         // email code
-        public QnAMakerBaseDialog(IBotServices services): base()
+        public QnAMakerBaseDialog(IBotServices services) : base()
         {
             this._services = services;
         }
@@ -58,25 +59,25 @@ namespace Microsoft.BotBuilderSamples.Dialog
 
         protected async override Task<QnADialogResponseOptions> GetQnAResponseOptionsAsync(DialogContext dc)
         {
-            var noAnswer = (Activity)Activity.CreateMessageActivity();
+            var noAnswer = (Activity) Activity.CreateMessageActivity();
             noAnswer.Text = DefaultNoAnswer;
 
-            var cardNoMatchResponse = (Activity)MessageFactory.Text(DefaultCardNoMatchResponse);
-      
-      var serverId = 33396;
-var injectionApiKey = "Ha92BgEx8w5W4Kdk6Q3J";
+            var cardNoMatchResponse = (Activity) MessageFactory.Text(DefaultCardNoMatchResponse);
 
-var client = new SocketLabsClient(serverId, injectionApiKey);
+            // var serverId = 33396;
+            // var injectionApiKey = "Ha92BgEx8w5W4Kdk6Q3J";
 
-var message = new BasicMessage();
+            // var client = new SocketLabsClient(serverId, injectionApiKey);
 
-message.Subject = "Sending A Basic Message";
-message.HtmlBody = "<html>This is the Html Body of my message.</html>";
-message.PlainTextBody = "This is the Plain Text Body of my message.";
-message.From.Email = "shireeniqbal02@yahoo.com";
-message.To.Add("shireeniqbal02@gmail.com");
+            // var message = new BasicMessage();
 
-var response = client.Send(message);
+            // message.Subject = "Sending A Basic Message";
+            // message.HtmlBody = "<html>This is the Html Body of my message.</html>";
+            // message.PlainTextBody = "This is the Plain Text Body of my message.";
+            // message.From.Email = "shireeniqbal02@yahoo.com";
+            // message.To.Add("shireeniqbal02@gmail.com");
+
+            // var response = client.Send(message);
 
 
             var responseOptions = new QnADialogResponseOptions
@@ -85,7 +86,6 @@ var response = client.Send(message);
                 CardNoMatchText = DefaultCardNoMatchText,
                 NoAnswer = noAnswer,
                 CardNoMatchResponse = cardNoMatchResponse,
-               
             };
 
             return responseOptions;

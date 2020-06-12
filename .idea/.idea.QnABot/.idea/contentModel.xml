@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Imran Faruqi\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Imran Faruqi\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_QnABot.-1249022402.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Imran Faruqi\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_QnABot.591590416.00" t="ExcludeRecursive" />
     <e p="C:\Users\Imran Faruqi\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Imran Faruqi\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
-    <e p="D:\Projects\chatbot-shireen-app-bot-src" t="IncludeRecursive">
+    <e p="D:\Projects\chatbot-shireen-app-bot-src\Shireen-bot" t="IncludeRecursive">
       <e p=".deployment" t="Include" />
+      <e p=".gitattributes" t="Include" />
       <e p=".gitignore" t="Include" />
       <e p="AdapterWithErrorHandler.cs" t="Include" />
       <e p="appsettings.json" t="Include" />
@@ -31,9 +32,8 @@
       <e p="IBotServices.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
-          <e p="netcoreapp2.1" t="Include">
+          <e p="netcoreapp3.1" t="Include">
             <e p="QnABot.AssemblyInfo.cs" t="Include" />
-            <e p="QnABot.RazorAssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -62,10 +62,6 @@
       <e p="QnABot.runtimeconfig.json" t="Include" />
       <e p="QnABot.sln" t="IncludeFlat" />
       <e p="README.md" t="Include" />
-      <e p="Shireen-bot" t="Include">
-        <e p=".gitattributes" t="Include" />
-        <e p="README.md" t="Include" />
-      </e>
       <e p="Startup.cs" t="Include" />
       <e p="web.config" t="Include" />
       <e p="wwwroot" t="Include">
