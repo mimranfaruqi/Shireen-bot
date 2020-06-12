@@ -12,15 +12,17 @@
     <setting file="file://$PROJECT_DIR$/Controllers/BotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bots/QnABot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dialog/RootDialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dialog/QnAMakerBaseDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/38CD8822-0D28-4547-80CC-FA68DB004A93/56/ITurnContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bots/QnABot.cs" />
-        <option value="$PROJECT_DIR$/Dialog/QnAMakerBaseDialog.cs" />
         <option value="$PROJECT_DIR$/QnABot.csproj" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Dialog/QnAMakerBaseDialog.cs" />
+        <option value="$PROJECT_DIR$/Bots/QnABot.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591986124946</updated>
       <workItem from="1591986132816" duration="424000" />
-      <workItem from="1591987063214" duration="2853000" />
+      <workItem from="1591987063214" duration="5691000" />
     </task>
     <servers />
   </component>
